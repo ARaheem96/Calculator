@@ -1,0 +1,59 @@
+ 
+
+ body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+ }
+ 
+.calculator {
+  background-color: lightgrey;
+    height: 400px;
+    width: 240px;
+ }
+
+ .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1px;
+    /* background-color: black; */
+
+ }
+ 
+ button {
+    flex: 0 0 24%;
+    height: 57.8px;
+    width: 40px;
+    /* color: white; */
+    background-color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    border-style: none;
+    margin: 1px;
+ }
+
+ form input{
+    height: 100px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color:blue;
+    /* background-color: black; */
+    background-color:lightgrey;
+    font-size: 40px;
+    text-align: right;
+
+    pointer-events: none;
+ }
+
+ .color {
+    background-color: brown;
+    color: white;
+ }
+ 
