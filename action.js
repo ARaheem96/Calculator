@@ -22,7 +22,7 @@
 
     equalBtn.addEventListener('click',function(event){
 
-        let result = eval(event.screen.value);
+        let result = eval(screen.value);
 
         if(result == 'Infinity')
         {
